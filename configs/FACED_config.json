@@ -1,0 +1,16 @@
+{
+  "seq_len": 2000,
+  "patch_size": 200,
+  "stride": 100,
+  "d_model": 512,
+  "num_classes": 9,
+  "num_channel": 32,
+  "rms_norm": false,
+  "embedding_dim": 512,
+  "projection_embedding_dim": 512,
+  "classification_dropout": 0.5,
+  "classification_hidden_dim": 512,
+  "learning_rate": 1e-4,
+  "weight_decay": 0.1,
+  "model_type": "eeg-downstream-classifier"
+}
