@@ -1,4 +1,5 @@
-# EEGFoundation: Tokenized Spatiotemporal Foundation Model for EEG Signals
+# A foundation model for tokenized spatial-temporal representation learning of electroencephalography signal data
+
 
 ## Overview
 
