@@ -76,7 +76,6 @@ print(f"Demo data shape: {demo_data.shape}")
 # The demo_data directory contains:
 # - eeg_data.npy: Sample EEG recordings
 # - downstream_eeg_data.npz: Processed data for downstream tasks
-# - make_data.py: Script to generate synthetic EEG data
 ```
 
 ## License
