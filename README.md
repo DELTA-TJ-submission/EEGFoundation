@@ -1,9 +1,9 @@
-# A foundation model for tokenized spatial-temporal representation learning of electroencephalography signal data
+<img width="432" height="12" alt="image" src="https://github.com/user-attachments/assets/5140e7b1-3a80-42d8-837e-f6d06ba57081" /># A foundation model for tokenized spatial-temporal representation learning of electroencephalography signal data
 
 
 ## Overview
 
-EEGFoundation is a novel foundation model that treats neural dynamics as a discrete semantic language, overcoming the limitations of vision-based EEG analysis paradigms. By implementing amplitude-aware tokenization and channel-independent pretraining on a 27,000+ hour EEG corpus, the model learns universal neural oscillation patterns that generalize across diverse EEG analysis tasks.
+EEGFoundation is a novel foundation model that treats neural dynamics as a discrete semantic language, overcoming the limitations of vision-based EEG analysis paradigms. By implementing Discrete Amplitude Quantization, High-Resolution Temporal Encoding and Spatially-Decoupled Temporal Representation on a 27,000+ hour EEG corpus, the model learns universal neural oscillation patterns that generalize across diverse EEG analysis tasks.
 
 
 
@@ -15,11 +15,11 @@ EEGFoundation is a novel foundation model that treats neural dynamics as a discr
 
 EEGFoundation follows a three-stage hierarchical approach:
 
-1. **Amplitude-Aware Tokenization**: Continuous EEG signals are normalized and quantized into discrete symbolic tokens that preserve micro-voltage fluctuations while filtering high-frequency noise.
+1. **Discrete Amplitude Quantization**: Continuous EEG signals are normalized and quantized into discrete symbolic tokens that preserve micro-voltage fluctuations while filtering high-frequency noise.
 
-2. **Temporal Pretraining**: Using a RoFormer encoder with Rotary Position Embeddings, the model learns universal temporal dynamics from channel-independent EEG streams.
+2. **High-Resolution Temporal Encoding**: Using a RoFormer encoder with Rotary Position Embeddings, the model learns universal temporal dynamics from channel-independent EEG streams.
 
-3. **Spatiotemporal Fusion**: Cross-channel attention dynamically aggregates local representations into a coherent global context for robust downstream task performance.
+3. **Spatially-Decoupled Temporal Representation**: Cross-channel attention dynamically aggregates local representations into a coherent global context for robust downstream task performance.
 
 ## Quick Start
 
