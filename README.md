@@ -9,7 +9,7 @@ EEGFoundation is a novel foundation model that treats neural dynamics as a discr
 
 ![Main_fig1](./photos/Main_fig1.png)
 
-**Fig.1 The EEGFoundation framework for spatiotemporal sequence modeling**
+**Fig.1 The EEGFoundation framework for language tokenized representation learning**
 
 ## Model Architecture
 
