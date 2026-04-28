@@ -1,4 +1,4 @@
-<img width="432" height="12" alt="image" src="https://github.com/user-attachments/assets/5140e7b1-3a80-42d8-837e-f6d06ba57081" /># A foundation model for tokenized spatial-temporal representation learning of electroencephalography signal data
+# A foundation model for tokenized spatial-temporal representation learning of electroencephalography signal data
 
 
 ## Overview
