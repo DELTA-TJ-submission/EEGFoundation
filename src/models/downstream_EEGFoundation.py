@@ -776,3 +776,79 @@ EEG_FOUNDATION_DOWNSTREAM_CONFIG_EXAMPLE = {
     "weight_decay": 0.1,
     "model_type": "eeg-foundation-downstream-classifier"
 }
+
+
+
+# ===================================================================
+# Downstream Task Configs (Stress / TUAB / BCI2a / FACED)
+# ===================================================================
+
+EEG_DOWNSTREAM_CONFIGS = {
+    "stress": {
+        "seq_len": 1000,
+        "patch_size": 150,
+        "stride": 100,
+        "d_model": 512,
+        "num_classes": 2,
+        "num_channel": 20,
+        "rms_norm": False,
+        "embedding_dim": 512,
+        "projection_embedding_dim": 512,
+        "classification_dropout": 0.5,
+        "classification_hidden_dim": 512,
+        "learning_rate": 1e-4,
+        "weight_decay": 0.1,
+        "model_type": "eeg-foundation-downstream-classifier",
+    },
+
+    "tuab": {
+        "seq_len": 2000,
+        "patch_size": 150,
+        "stride": 100,
+        "d_model": 512,
+        "num_classes": 2,
+        "num_channel": 23,
+        "rms_norm": False,
+        "embedding_dim": 512,
+        "projection_embedding_dim": 512,
+        "classification_dropout": 0.5,
+        "classification_hidden_dim": 512,
+        "learning_rate": 1e-4,
+        "weight_decay": 0.1,
+        "model_type": "eeg-foundation-downstream-classifier",
+    },
+
+    "bci2a": {
+        "seq_len": 800,
+        "patch_size": 100,
+        "stride": 100,
+        "d_model": 512,
+        "num_classes": 4,
+        "num_channel": 22,
+        "rms_norm": False,
+        "embedding_dim": 512,
+        "projection_embedding_dim": 512,
+        "classification_dropout": 0.5,
+        "classification_hidden_dim": 512,
+        "learning_rate": 1e-4,
+        "weight_decay": 0.1,
+        "model_type": "eeg-foundation-downstream-classifier",
+    },
+
+    "faced": {
+        "seq_len": 2000,
+        "patch_size": 200,
+        "stride": 100,
+        "d_model": 512,
+        "num_classes": 9,
+        "num_channel": 32,
+        "rms_norm": False,
+        "embedding_dim": 512,
+        "projection_embedding_dim": 512,
+        "classification_dropout": 0.5,
+        "classification_hidden_dim": 512,
+        "learning_rate": 1e-4,
+        "weight_decay": 0.1,
+        "model_type": "eeg-foundation-downstream-classifier",
+    },
+}
