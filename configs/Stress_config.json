@@ -12,5 +12,5 @@
   "classification_hidden_dim": 512,
   "learning_rate": 1e-4,
   "weight_decay": 0.1,
-  "model_type": "eeg-downstream-classifier"
+  "model_type": "eeg-foundation-downstream-classifier"
 }
