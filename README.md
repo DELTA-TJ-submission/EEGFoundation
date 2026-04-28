@@ -3,7 +3,7 @@
 
 ## Overview
 
-EEGFoundation is a novel foundation model that treats neural dynamics as a discrete semantic language, overcoming the limitations of vision-based EEG analysis paradigms. By implementing Discrete Amplitude Quantization, High-Resolution Temporal Encoding and Spatially-Decoupled Temporal Representation on a 27,000+ hour EEG corpus, the model learns universal neural oscillation patterns that generalize across diverse EEG analysis tasks.
+EEGFoundation is a novel foundation model that treats neural dynamics as a discrete semantic language, overcoming the limitations of vision-based EEG analysis paradigms. By implementing **Discrete Amplitude Quantization**, **High-Resolution Temporal Encoding** and **Spatially-Decoupled Temporal Representation** on a 27,000+ hour EEG corpus, the model learns universal neural oscillation patterns that generalize across diverse EEG analysis tasks.
 
 
 
